@@ -23,3 +23,5 @@ builder.Password = "1234";      // SQL Server账号密码
 builder.InitialCatalog = "master";
 ```
 里面的参数选项均是在安装SQL Server时设置的参数，DataSource是创建的数据库的名称,UserID是创建混合验证模式时创建的用户，Password则是相应的密码
+## 如何利用C#代码对SQL Server进行操作
+[语言参考](https://docs.microsoft.com/zh-cn/sql/xquery/xquery-basics)
