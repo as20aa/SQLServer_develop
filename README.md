@@ -1,4 +1,4 @@
-# SQLServer_develop
+# SQLServer_develope
 一个安装SQL Server和用c#进行开发的教程
 ## 开发前的准备工作
 * [下载和安装](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/)   
