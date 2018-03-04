@@ -25,3 +25,5 @@ builder.InitialCatalog = "master";
 里面的参数选项均是在安装SQL Server时设置的参数，DataSource是创建的数据库的名称,UserID是创建混合验证模式时创建的用户，Password则是相应的密码
 ## 如何利用C#代码对SQL Server进行操作
 [语言参考](https://docs.microsoft.com/zh-cn/sql/t-sql/new-updated-t-sql)
+## 如何确认SQL Server中是否存在数据库、表等
+[教程](www.cnblogs.com/for917157ever/archive/2012/04/19/2456826.html)
