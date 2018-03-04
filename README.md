@@ -2,7 +2,8 @@
 一个安装SQL Server和用c#进行开发的教程
 ## 开发前的准备工作
 * [下载和安装](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/)   
-这里的对SQL Server的开发用到的是SQL Server 2017 Developer版本(默认是安装了visual studio 2017)    
+这里的对SQL Server的开发用到的是SQL Server 2017 Developer版本(默认是安装了visual studio 2017)    
+安装功能时建议除了机器学习的模块之外全选    
 建议下载安装介质，防止第一次安装中出现各种问题
 * 安装SQL Server Management Studio (SSMS)（可选，如果不需要太高级的GUI管理功能可以忽略）
 [安装链接](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
