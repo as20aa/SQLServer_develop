@@ -1,10 +1,10 @@
 # SQLServer_develope
 一个安装SQL Server和用c#进行开发的教程
 ## 开发前的准备工作
-* 所需软件列表为（请看完这一part后再下载安装）
-** visual studio
-** SQL Server(developer版，商业版付费，express版也免费但是没有尝试过)
-** SQL Server Management Studio (SSMS)(可选)
+* 所需软件列表为（请看完这一part后再下载安装）    
+** visual studio    
+** SQL Server(developer版，商业版付费，express版也免费但是没有尝试过)    
+** SQL Server Management Studio (SSMS)(可选)    
 下载安装连接：[visual studio](https://www.visualstudio.com/zh-hans/?rr=https%3A%2F%2Fwww.bing.com%2F)
 [SQL Server developer版](https://www.microsoft.com/zh-cn/sql-server/sql-server-downloads)
 [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
