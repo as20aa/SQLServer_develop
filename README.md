@@ -27,3 +27,14 @@ builder.InitialCatalog = "master";
 [语言参考](https://docs.microsoft.com/zh-cn/sql/t-sql/new-updated-t-sql)
 ## 如何确认SQL Server中是否存在数据库、表等
 [教程](www.cnblogs.com/for917157ever/archive/2012/04/19/2456826.html)
+## 常见操作需求
+* 查询当前所有数据库，并获得一张存储了所有数据的名字的表格
+```SQL
+select name from master..sysdatabases order by name;
+```
+这里的master..sysdatabases并非是固定的，而是依照当前登陆的分支来决定的，即Initcatalog参数，例如，登陆时登陆的是branch分支，则master..sysdatabases就要改为branch..sysdatabases，以此类推
+* 查询当前数据库的下的所有表格
+```SQL
+select name from databasename..sysobjects order by name;
+```
+此处的databasename也跟上面的一样，database是使用的数据
